@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <p>What is my least performing subject?</p>
+    <input type="radio" name="a" class="q1" onclick="correctAnswer(1)">
+    <label for="a">Kannada</label> <br>
+
+    <input type="radio" name="a" class="q1" onclick="wrongAnswer(1)">
+    <label for="a">Hindi</label> <br>
+
+    <input type="radio" name="a" class="q1" onclick="wrongAnswer(1)">
+    <label for="a">English</label> <br>
+    <input type="radio" name="a" class="q1" onclick="wrongAnswer(1)">
+    <label for="a">German</label> <br>
+
+    <p>What is my most performing subject?</p>
+    <input type="radio" name="b" class="q2" onclick="correctAnswer(2)">
+    <label for="b">English</label> <br>
+    <input type="radio" name="b" class="q2" onclick="wrongAnswe(2)">
+    <label for="b">Maths</label> <br>
+    <input type="radio" name="b" class="q2" onclick="wrongAnswer(2)">
+    <label for="b">computer</label> <br>
+    <input type="radio" name="b" class="q2" onclick="wrongAnswer(2)">
+    <label for="b">Art</label> <br>
+    <p>Who is my enemy?</p>
+    <input type="radio" name="c" class="q3" onclick="wrongAnswer(3)">
+    <label for="b">Avaan</label> <br>
+    <input type="radio" name="c" class="q3" onclick="wrongAnswer(3)">
+    <label for="b">Amiya</label> <br>
+    <input type="radio" name="c" class="q3" onclick="wrongAnswer(3)">
+    <label for="b">Rishikesh</label> <br>
+    <input type="radio" name="c" class="q3" onclick="correctAnswer(3)">
+    <label for="b">Rudrakshi</label> <br>
+    <input type="submit" onclick="submit()">
+    
+    <h3 id="remark"></h3>
+</body>
+
+</html>
